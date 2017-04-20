@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Google Code-in 2015 wrap up"
+date: 2016-01-26 16:54:46
+author: Dilushi Piumwardane, GCI mentor.
+categories:
+- blog
+- gci
+img: gci-2015.png
+thumb: gci-2015-thumb.png
+images:
+  - name: image00.png
+    alt: stutter aid android
+---
+
+The Sustainable Computing Research Group (SCoRe) at University of Colombo School of Computing, conducts research covering various aspects of wireless sensor networks, embedded systems, digital forensic, information security, mobile applications and e-learning. The goal of our research is to generate computing solutions through identifying low cost methodologies and strategies that lead to sustainability. <!--more--> The solutions we get by sustainable computing research projects conducted at SCoRe lab are important for developing countries like Sri Lanka.
+
+The tasks covered Code, User Interface, Research, Quality Assurance, Outreach and Documentation. 44 students completed at least one task with us this year and 8 students completed at least three tasks with us to earn a GCI t-shirt.6 students completed over 10  tasks each in competition to become grand prize winners.
+
+However among these students we had to choose the ones who contributed the most. So the grand prize winners from SCoRe were, <b>Brayan Alfaro</b> and <b>Anesu Mafuvadze.</b> The finalists were <b>Aashir Shukla</b>, <b>Lucas Jones</b> and <b>Philip Lindner</b>.
+
+Here are some comments received from students who participated.
+
+>“It was my pleasure working with you and the SCoRe Community. This contest helped me to enhance my knowledge in software development and as being a student open to new ideas, I gained a lot of knowledge through the tasks I did. My mentors guided me every time and I would gladly work with this community in the future.I would love to contribute to you in every possible way.”
+
+We give our special thanks to our most active mentors who voluntarily contributed throughout the contest (Chritha Madhushanka, Dinith Kumara, Milindu Sanoj, Raveen Perera, Tharindu Ranathunga, Dilushi Piumwardane, Namal Jayasuriya, Nithila Vithanage, Nadeesh Fernando, Prabod Prasanga, Kasun Balasooriya, Tharindu Ranathunga, Pubudu Dharmaratne) We also thank the students who participated in the contest and contributed. Finally we would like to thank Stephanie for the amazing job she did handling organizations and students and interfering whenever needed. We thank Google again for selecting SCoRe as a mentoring organization and we hope to participate in GSoC 2016 again!

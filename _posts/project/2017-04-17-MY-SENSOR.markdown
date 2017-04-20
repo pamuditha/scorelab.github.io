@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "MySensor"
+description: MySensor switch provides security and privacy in IoT applications. With help of MySensors, IoT devices can communicate each other with guaranteeing end to end security. MySensor supports IoT devices such as Smartphones (android) and Raspberry-pi
+
+date:   2014-04-25 16:54:46
+author: Marcel Newman
+categories:
+- project
+img: portfolio_10.jpg
+thumb: mysensors-thumb.png
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+tagged: Flat, UI, Development
+client: Wonder Corp.
+website: http://www.ucsc.cmb.ac.lk/M-ATM
+---
+####YOUR PROJECT NAME

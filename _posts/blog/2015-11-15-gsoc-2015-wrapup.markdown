@@ -1,0 +1,80 @@
+---
+layout: post
+title: "Google Summer of Code 2015 wrap up"
+date: 2015-11-15 16:54:46
+author: Admin
+categories:
+- blog
+- gsoc
+img: gsoc-2015.jpg
+thumb: gsoc-2015-thumb.jpg
+images:
+  - name: image00.png
+    alt: stutter aid android
+
+  - name: image01.png
+    alt: stutter aid android
+
+  - name: image02.png
+    alt: stutter aid android
+
+  - name: image03.png
+    alt: stutter aid android
+
+  - name: image04.png
+    alt: stutter aid android
+---
+
+The Sustainable Computing Research Group (SCoRe) at University of Colombo School of Computing has conducted research covering various aspects of wireless sensor networks, embedded systems, digital forensic, information security, mobile applications and e-learning. The goal of our research is to generate computing solutions through identifying low cost methodologies and strategies that lead to sustainability. <!--more--> The solutions we get by sustainable computing research projects conducted at SCoRe lab are important for developing countries like Sri Lanka since they provide sustainable solutions to problems.
+
+For the very first time, SCoRe lab participated in Google Summer of Code 2015, with a list of twenty four proposals covering different research areas mentioned above. A lot of interesting student proposals were received out of which three of them were chosen. We are happy to announce that all three students successfully completed GSoC 2015 programme.
+A brief description of the three projects selected are as follows.
+
+<b>1. Text and Graphic extraction Module for OpenDF</b>
+
+>Kasun Balasooriya –Undergraduate at University of Colombo School of Computing, Sri Lanka.
+
+Optical character recognition is the process of converting different types of documents, such as scanned paper documents, PDF files or images captured by a digital camera into editable and searchable data. The OCR module enables OpenDF to scan through all the images and extract all the text to searchable data. This allows the person who is using OpenDF to analyse all the pictures in a disc image and search through all the extracted text.
+
+The project includes a image preprocessing module which will enable the user to pre process the image before OCR, allowing better results. The imagemagick image processing library was used for the implementation. For the OCR process the tesseract ocr JNI library was used. Tesseract can output extracted strings in a HTML document.
+
+<div class="row">
+<div class="col-md-6">
+<img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.images[1].name }}">
+</div>
+<div class="col-md-6">
+<img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.images[3].name }}">
+</div>
+</div>
+
+
+<br/>
+<b>2. Smartphone Support for People who Stutter</b>
+
+>Raveen Perera- Undergraduate at University of Colombo School of Computing, Sri Lanka.
+
+Stuttering is a speech disorder that we find among people which makes them and listeners feel uncomfortable while having conversations. Some special devices exist to overcome this disorder and smartphones can be also used to do the same thing. The proposal was on building a mechanism to overcome stuttering from your Android smartphone. The project has two apps. The Stutter-Aid Android app, where people with speech disfluencies could use with headphones while talking. The app delays the feedback of the person's speech and is played through the headphones. Since the delay of feedback the person can now gradually speak without stuttering. More the delay, more the speech slows down of the listener. The main challenge of implementing the app was to lower the delay of audio playback in android. This was somewhat overcome by programming the audio handling parts with the Android NDK with OpenSL-ES library.
+
+The Stutter-Aid web app is for collecting short speech recordings for analysis. People who use the Android app can agree to the survey that is suggested by the app and record their speech for a short time and upload. The owners can modify uploaded audio clips from the Stutter-Aid website.
+
+<div class="row">
+<div class="col-md-3">
+<img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.images[0].name }}">
+</div>
+<div class="col-md-9">
+<img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.images[2].name }}">
+</div>
+</div>
+
+<br/>
+<b>3. Search optimization/Text Indexing + Report Generation for AndroSpy</b>
+
+>Sachith Withana- Undergraduate at University of Moratuwa, Sri Lanka.
+
+Androspy is a forensics analysis tool that is available in both the desktop and mobile platforms. It provides the opportunity for accumulating and searching forensic evidence both at the office and in the field. For example the office can download the image of a phone he/she recovered from the crime scene directly into the tool and search on data in that image. It can retrieve results from all the documents that are available for the officer.
+
+The objective of this project was to provide an efficient way to search through the artifacts available and return the search results to the user. To do that, we used Apache Solr, a very powerful search platform built on Apache Lucene. We extract the required details from the documents and indexes it in Solr.  For the phone image example, we index data along with its memory location in the phone, and using a technique called hit highlighting we retrieve the relevant memory locations for a search and uses them to fetch the necessary details of the phone image.  The indexing mechanism is automatically differs according to the input type allowing more robust searching with flexible indexing.
+
+GSoC has been a great inspiration for students and contributors around the world. It is a great pleasure to notice that a considerable amount of contribution was done to our projects by those who were not selected for GSoC. Some of the projects that received such contribution are BASSA, Tracker and OpenDF.
+
+We would like to invite students interested in open source and sustainable computing research to get involved in our projects. While being thankful to Google for providing this opportunity, SCoRe lab look forward to participate in the GSoC 2016 with another set of proposals.

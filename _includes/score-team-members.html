@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <h2>Heads</h2>
+            </div>
+            <div class="col-lg-12">
+              <div id="publications">
+                    {% for team_member in site.categories['scoreteam'] limit:include.limit %}
+                    {% if team_member.post == "head" %}
+                    <section>
+                        <ul type="circle"> 
+                            <li>
+                                <h4>{{team_member.name}}</h4>
+                                <i>{{team_member.education_qualifications}}</i><br/>
+                                Contact Me: <span>{{team_member.mail}}</span><br/>
+                                <a href="{{ team_member.linkedin }}">LinkedIn</a>
+                                <a href="{{ team_member.scholar }}">Google Scholar</a>
+                                <a href="{{ team_member.github }}">GitHub</a>
+                                <a href="{{ team_member.blog }}">Blog</a>
+                                <a href="{{ team_member.web }}">Website</a>
+                            </li>
+                        </ul>
+                    </section>	
+                    {% endif %}
+                    {% endfor %}
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <h2>Researchers</h2>
+            </div>
+            <div class="col-lg-12">
+              <div id="publications">
+                    {% for team_member in site.categories['scoreteam'] limit:include.limit %}
+                    {% if team_member.post == "RA" %}
+                    <section>
+                        <ul type="circle"> 
+                            <li>
+                                <h4>{{team_member.name}}</h4>
+                                <i>{{team_member.education_qualifications}}</i><br/>
+                                Contact Me: <span>{{team_member.mail}}</span><br/>
+                                <a href="{{ team_member.linkedin }}">LinkedIn</a>
+                                <a href="{{ team_member.scholar }}">Google Scholar</a>
+                                <a href="{{ team_member.github }}">GitHub</a>
+                                <a href="{{ team_member.blog }}">Blog</a>
+                                <a href="{{ team_member.web }}">Website</a>                  
+                            </li>
+                        </ul>
+                    </section>	
+                    {% endif %}
+                    {% endfor %}
+              </div>
+            </div>
+        </div>
+    </div>
+</div>

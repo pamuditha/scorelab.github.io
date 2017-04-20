@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <title>SCoRe Lab - Enhanced bag-of-words model for phrase-level sentiment analysis</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="/css/main.css">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body>
+        <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">SCoRe Lab</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li ><a href="/blog/">Blog</a></li>
+        <li ><a href="/projects/">Projects</a></li>
+        <li ><a href="/score-team/">Team</a></li>
+        <!--<li ><a href="/team/">Team</a></li>-->
+        <li ><a href="/publications/">Publications</a></li>
+        <li ><a href="/about/">About Us</a></li>
+        <li ><a href="/contact/">Contact</a></li>
+        <li ><a href="/gsoc-2017/">GSoC 2017</a></li>
+        <li ><a href="/reading-group/">Reading Group</a></li>
+        <li><a href="https://github.com/scorelab">Github</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+            <div id="blue">
+    <div class="container">
+        <div class="row">
+            <h3>Enhanced bag-of-words model for phrase-level sentiment analysis</h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
+
+
+    
+
+<style media="screen">
+	.card-view>img{
+		border: 1px solid #e3e3e3;
+		padding: 10px;
+	}
+	.card-view{
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+</style>
+<div class="container mtb">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="publications">
+      		
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Sensor Based Breakage Detection For Electric Fences</h4>
+						Eranda Tennakoon, Charith Madusanka, Kasun De Zoysa, Chamath Keppitiyagama, Venkat Iyer, Kasun Hewage, Thiemo Voigt<br/>
+						<i>Sensors Applications Symposium (SAS), 2015 IEEE</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Listening to the Giants: Using Elephant Infra-Sound to Solve the Human-Elephant Conflict</h4>
+						Poshitha Dabare, Chathura Suduwella, Asanka Sayakkara, Damitha Sandaruwan, Chamath Keppitiyagama, Kasun De Zoysa, Kasun Hewage, Thiemo Voigt<br/>
+						<i>6th ACM Workshop on Real World Wireless Sensor Networks</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>A Quadcopter Controller to Maintain Radio Link Quality</h4>
+						Mohammed Ayyoob Ahamed Hamza, Chamath Keppitiyagama, Kasun De Zoysa, Venkatraman Iyer, Kasun Hewage, Thiemo Voigt<br/>
+						<i>1st Workshop on Micro Aerial Vehicle Networks, Systems, and Applications for Civilian Use</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Video steganography</h4>
+						A Munasinghe, Anuja Dharmaratne, Kasun De Zoysa<br/>
+						<i>8th International Conference on Computer Science & Education (ICCSE), 2013</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Twitter news classification using SVM</h4>
+						Inoshika Dilrukshi, Kasun De Zoysa, Amitha Caldera<br/>
+						<i>13th Advances in ICT for Emerging Regions (ICTer), 2013</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Twitter news classification: Theoretical and practical comparison of SVM against Naive Bayes algorithms</h4>
+						Inoshika Dilrukshi, Kasun De Zoysa<br/>
+						<i>13th Advances in ICT for Emerging Regions (ICTer), 2013</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Towards A Sensor System To Tame The Human Elephant Conflict</h4>
+						Charitha Elvitigala, Eranda Tennakoon, Ayyoob Hamza, Yasith Lokuge, Kasun De Zoysa, Chamath Keppitiyagama, Venkat Iyer, Kasun Hewage, Thiemo Voigt<br/>
+						<i>Sensors Applications Symposium (SAS), 2015 IEEE</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>TikiriPower-Using TikiriDB abstraction on Smart Home systems</h4>
+						Lakmal Weerawarne, Asanka Sayakkara, Dinuni Fernando, Chathura Suduwella, Kasun De Zoysa<br/>
+						<i>12th Advances in ICT for Emerging Regions (ICTer), 2012</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Railway Train Dynamics Analysis System</h4>
+						AP Kasthoori, EMWV Ekanayaka, Kasun De Zoysa<br/>
+						<i>14th Advances in ICT for Emerging Regions (ICTer), 2014</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>My sensors: A system for secure sensor data sharing over internet</h4>
+						Edirisuriya Mudalige Dilanga Siriwardane, Asanka Sayakkara, EMWV Ekanayake, Kasun De Zoyza<br/>
+						<i>13th Advances in ICT for Emerging Regions (ICTer), 2013</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Enhanced bag-of-words model for phrase-level sentiment analysis</h4>
+						Buddhika H Kasthuriarachchy, Kasun De Zoysa, HL Premaratne<br/>
+						<i>14th Advances in ICT for Emerging Regions (ICTer), 2014</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Declarative interface for in-network actuation on wireless sensor-actuator networks</h4>
+						Asanka Sayakkara, MDJS Goonetillake, Kasun De Zoysa<br/>
+						<i>3rd International Conference on Networked Embedded Systems for Every Application (NESEA), 2012</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Context-aware sentiment classification</h4>
+						Buddhika H Kasthuriarachchy, Kasun de Zoysa, HL Premarathne<br/>
+						<i>15th Advances in ICT for Emerging Regions (ICTer), 2015</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>Automated Pothole Detection System</h4>
+						Girisha D De Silva, Ravin S Perera, Nayanajith M Laxman, Kenneth M Thilakarathna, Chamath I Keppitiyagama, Kasun De Zoysa<br/>
+						<i>International Conference on Advances in ICT for Emerging Regions, Colombo, Sri Lanka</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>A Feature Selection Method for Twitter News Classification</h4>
+						Inoshika Dilrukshi, Kasun de Zoysa<br/>
+						<i>International Journal of Machine Learning and Computing</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+			<section>
+				<ul style="padding-left: 25px;" type="circle"> 
+					<li>
+						<h4>A Declarative Interface for Smart-phone Based Sensor Network Systems</h4>
+						Asanka Sayakkara, Kasun De Zoysa<br/>
+						<i>2nd International Workshop on Mobile Sensing, Beijing, China, 2012</i>,
+						
+					</li>
+				</ul>
+			</section>				
+			
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-twitter"></i></a>
+                    
+                </p>
+            </div>
+        </div><!--/row -->
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center; color:#fff">
+                © Copyright 2016 Sustainable Computing Research Group (SCoRe)
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
+</div><!--/footerwrap -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+    </body>
+</html>

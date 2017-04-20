@@ -1,0 +1,73 @@
+<style media="screen">
+	.card-view>img{
+		border: 1px solid #e3e3e3;
+		padding: 10px;
+	}
+	.card-view{
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+</style>
+<div class="container mtb">
+	<div class="row">
+
+        <section>
+
+        <div class="col-lg-4">
+            <img class="img-responsive" src="{{ "/assets/img/Calvin-on-the-Purpose-of-Writing.jpg" | prepend: site.baseurl }}" alt="">
+        </div>
+
+        <div class="col-lg-8">
+		{% for reading-group in site.categories['reading-group'] limit:include.limit %}
+
+		{% if reading-group.heading == "SCoRe Reading Group" %}
+
+        <p>
+            <b>Reading group?</b>
+        </p>
+
+        <p>
+            {{reading-group.introduction}}
+        </p>
+
+        <p>
+            <b>How to participate?</b>
+        </p>
+
+        <p>
+            {{reading-group.participate}}
+        </p>
+
+        <p>
+            <b>When and where?</b>
+        </p>
+ 
+		<ul style="padding-left: 25px;" type="circle"> 
+			<li>Date: Every Friday</li>
+            <li>Time: 11.00am</li>
+            <li>Venue: SCoRe lab / 4th floor conference room</li>
+		</ul>
+
+        <p>
+            <b>Mailing list:</b> <a href="{{reading-group.mailinglisturl}}" target="_blank">{{reading-group.mailinglist}}</a>
+        </p>
+
+        </div>
+
+        
+
+        </section>	
+ 
+        {% endif %}
+
+		{% endfor %}
+	</div>
+
+    <section>
+    <div class="col">
+        <p> We hope to add the details of the papers discussed and the paper presenters in this page in the future. Currently this page is under development. Please await more updates.</p> 
+    </div>
+    </section>
+
+
+</div>

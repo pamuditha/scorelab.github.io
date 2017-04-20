@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <title>SCoRe Lab - Google Summer of Code 2015 wrap up</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="/css/main.css">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body>
+        <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">SCoRe Lab</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li ><a href="/blog/">Blog</a></li>
+        <li ><a href="/projects/">Projects</a></li>
+        <li ><a href="/score-team/">Team</a></li>
+        <!--<li ><a href="/team/">Team</a></li>-->
+        <li ><a href="/publications/">Publications</a></li>
+        <li ><a href="/about/">About Us</a></li>
+        <li ><a href="/contact/">Contact</a></li>
+        <li ><a href="/gsoc-2017/">GSoC 2017</a></li>
+        <li ><a href="/reading-group/">Reading Group</a></li>
+        <li><a href="https://github.com/scorelab">Github</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+            <div id="blue">
+    <div class="container">
+        <div class="row">
+            <h3>Google Summer of Code 2015 wrap up</h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
+
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8" style="text-align:justify">
+            <! -- Blog Post  -->
+            <p><img class="img-responsive" src="/assets/img/blog/gsoc-2015.jpg"></p>
+            <a href="/blog/gsoc/gsoc-2015-wrapup"><h3 class="ctitle">Google Summer of Code 2015 wrap up</h3></a>
+            <p><csmall>Nov 15, 2015. | By: Admin</csmall></p>
+
+            <p>The Sustainable Computing Research Group (SCoRe) at University of Colombo School of Computing has conducted research covering various aspects of wireless sensor networks, embedded systems, digital forensic, information security, mobile applications and e-learning. The goal of our research is to generate computing solutions through identifying low cost methodologies and strategies that lead to sustainability. <!--more--> The solutions we get by sustainable computing research projects conducted at SCoRe lab are important for developing countries like Sri Lanka since they provide sustainable solutions to problems.</p>
+
+<p>For the very first time, SCoRe lab participated in Google Summer of Code 2015, with a list of twenty four proposals covering different research areas mentioned above. A lot of interesting student proposals were received out of which three of them were chosen. We are happy to announce that all three students successfully completed GSoC 2015 programme.
+A brief description of the three projects selected are as follows.</p>
+
+<p><b>1. Text and Graphic extraction Module for OpenDF</b></p>
+
+<blockquote>
+  <p>Kasun Balasooriya –Undergraduate at University of Colombo School of Computing, Sri Lanka.</p>
+</blockquote>
+
+<p>Optical character recognition is the process of converting different types of documents, such as scanned paper documents, PDF files or images captured by a digital camera into editable and searchable data. The OCR module enables OpenDF to scan through all the images and extract all the text to searchable data. This allows the person who is using OpenDF to analyse all the pictures in a disc image and search through all the extracted text.</p>
+
+<p>The project includes a image preprocessing module which will enable the user to pre process the image before OCR, allowing better results. The imagemagick image processing library was used for the implementation. For the OCR process the tesseract ocr JNI library was used. Tesseract can output extracted strings in a HTML document.</p>
+
+<div class="row">
+<div class="col-md-6">
+<img class="img-responsive" src="/assets/img/blog/image01.png" />
+</div>
+<div class="col-md-6">
+<img class="img-responsive" src="/assets/img/blog/image03.png" />
+</div>
+</div>
+
+<p><br />
+<b>2. Smartphone Support for People who Stutter</b></p>
+
+<blockquote>
+  <p>Raveen Perera- Undergraduate at University of Colombo School of Computing, Sri Lanka.</p>
+</blockquote>
+
+<p>Stuttering is a speech disorder that we find among people which makes them and listeners feel uncomfortable while having conversations. Some special devices exist to overcome this disorder and smartphones can be also used to do the same thing. The proposal was on building a mechanism to overcome stuttering from your Android smartphone. The project has two apps. The Stutter-Aid Android app, where people with speech disfluencies could use with headphones while talking. The app delays the feedback of the person’s speech and is played through the headphones. Since the delay of feedback the person can now gradually speak without stuttering. More the delay, more the speech slows down of the listener. The main challenge of implementing the app was to lower the delay of audio playback in android. This was somewhat overcome by programming the audio handling parts with the Android NDK with OpenSL-ES library.</p>
+
+<p>The Stutter-Aid web app is for collecting short speech recordings for analysis. People who use the Android app can agree to the survey that is suggested by the app and record their speech for a short time and upload. The owners can modify uploaded audio clips from the Stutter-Aid website.</p>
+
+<div class="row">
+<div class="col-md-3">
+<img class="img-responsive" src="/assets/img/blog/image00.png" />
+</div>
+<div class="col-md-9">
+<img class="img-responsive" src="/assets/img/blog/image02.png" />
+</div>
+</div>
+
+<p><br />
+<b>3. Search optimization/Text Indexing + Report Generation for AndroSpy</b></p>
+
+<blockquote>
+  <p>Sachith Withana- Undergraduate at University of Moratuwa, Sri Lanka.</p>
+</blockquote>
+
+<p>Androspy is a forensics analysis tool that is available in both the desktop and mobile platforms. It provides the opportunity for accumulating and searching forensic evidence both at the office and in the field. For example the office can download the image of a phone he/she recovered from the crime scene directly into the tool and search on data in that image. It can retrieve results from all the documents that are available for the officer.</p>
+
+<p>The objective of this project was to provide an efficient way to search through the artifacts available and return the search results to the user. To do that, we used Apache Solr, a very powerful search platform built on Apache Lucene. We extract the required details from the documents and indexes it in Solr.  For the phone image example, we index data along with its memory location in the phone, and using a technique called hit highlighting we retrieve the relevant memory locations for a search and uses them to fetch the necessary details of the phone image.  The indexing mechanism is automatically differs according to the input type allowing more robust searching with flexible indexing.</p>
+
+<p>GSoC has been a great inspiration for students and contributors around the world. It is a great pleasure to notice that a considerable amount of contribution was done to our projects by those who were not selected for GSoC. Some of the projects that received such contribution are BASSA, Tracker and OpenDF.</p>
+
+<p>We would like to invite students interested in open source and sustainable computing research to get involved in our projects. While being thankful to Google for providing this opportunity, SCoRe lab look forward to participate in the GSoC 2016 with another set of proposals.</p>
+
+
+            <div class="spacing"></div>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </p> -->
+        </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+   <!--  <h4>Search</h4>
+    <div class="hline"></div>
+        <p>
+            <br/>
+            <input type="text" class="form-control" placeholder="Search something">
+        </p>
+    <div class="spacing"></div> -->
+    <h4>Subscribe</h4>
+    <div class="hline"></div>
+        <p>
+            <p class="rss-subscribe">Subscribe to this blog <a href="/feed.xml">via RSS</a>.</p>
+        </p>
+    <div class="spacing"></div>
+    <h4>Categories</h4>
+    <div class="hline"></div>
+    
+        <p>
+            <a href="/category/#kute"><i class="fa fa-angle-right"></i> Kute</a>
+            <span class="badge badge-theme pull-right">1</span>
+        </p>
+    
+        <p>
+            <a href="/category/#publications"><i class="fa fa-angle-right"></i> Publications</a>
+            <span class="badge badge-theme pull-right">16</span>
+        </p>
+    
+        <p>
+            <a href="/category/#gsoc"><i class="fa fa-angle-right"></i> Gsoc</a>
+            <span class="badge badge-theme pull-right">2</span>
+        </p>
+    
+        <p>
+            <a href="/category/#gci"><i class="fa fa-angle-right"></i> Gci</a>
+            <span class="badge badge-theme pull-right">1</span>
+        </p>
+    
+        <p>
+            <a href="/category/#gsoc2016"><i class="fa fa-angle-right"></i> Gsoc2016</a>
+            <span class="badge badge-theme pull-right">20</span>
+        </p>
+    
+        <p>
+            <a href="/category/#reading-group"><i class="fa fa-angle-right"></i> Reading-group</a>
+            <span class="badge badge-theme pull-right">1</span>
+        </p>
+    
+        <p>
+            <a href="/category/#gsoc2017"><i class="fa fa-angle-right"></i> Gsoc2017</a>
+            <span class="badge badge-theme pull-right">20</span>
+        </p>
+    
+        <p>
+            <a href="/category/#scoreteam"><i class="fa fa-angle-right"></i> Scoreteam</a>
+            <span class="badge badge-theme pull-right">6</span>
+        </p>
+    
+
+    <div class="spacing"></div>
+
+    <h4>Recent Posts</h4>
+    <div class="hline"></div>
+        <ul class="popular-posts">
+             
+                <li>
+                    <a href="/blog/gci/gci-2015-wrapup"><img src="/assets/img/blog/thumbs/gci-2015-thumb.png" alt="Popular Post"></a>
+                    <p><a href="/blog/gci/gci-2015-wrapup">Google Code-in 2015 wrap up</a></p>
+                <em>Posted on 26 Jan 2016</em>
+            </li>
+             
+                <li>
+                    <a href="/blog/gsoc/gsoc-2015-wrapup"><img src="/assets/img/blog/thumbs/gsoc-2015-thumb.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/gsoc/gsoc-2015-wrapup">Google Summer of Code 2015 wrap up</a></p>
+                <em>Posted on 15 Nov 2015</em>
+            </li>
+             
+                <li>
+                    <a href="/blog/score-group"><img src="/assets/img/blog/thumbs/score-thumb.png" alt="Popular Post"></a>
+                    <p><a href="/blog/score-group">SCoRe Group</a></p>
+                <em>Posted on 10 Oct 2015</em>
+            </li>
+             
+        </ul>
+
+    <div class="spacing"></div>
+
+    <h4>Popular Tags</h4>
+    <div class="hline"></div>
+    <p>
+    
+            <a class="btn btn-theme" href="/category/#kute" role="button">Kute (1)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#publications" role="button">Publications (16)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#gsoc" role="button">Gsoc (2)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#gci" role="button">Gci (1)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#gsoc2016" role="button">Gsoc2016 (20)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#reading-group" role="button">Reading-group (1)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#gsoc2017" role="button">Gsoc2017 (20)</a>	         
+        
+            <a class="btn btn-theme" href="/category/#scoreteam" role="button">Scoreteam (6)</a>	         
+        
+    </p>
+</div>
+
+    </div><! --/row -->
+</div><! --/container -->
+
+
+        <div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center">
+                <p>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-facebook"></i></a>
+                    
+                        <a href="" class="btn-social btn-outline"><i class="fa fa-twitter"></i></a>
+                    
+                </p>
+            </div>
+        </div><!--/row -->
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center; color:#fff">
+                © Copyright 2016 Sustainable Computing Research Group (SCoRe)
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
+</div><!--/footerwrap -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+    </body>
+</html>

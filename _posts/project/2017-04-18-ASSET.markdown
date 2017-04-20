@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "ASSET"
+description: An Adaptive Sensor Actuator System for Elephant Tracking for elephant detection and early warnings. The system will exploit the recent advances in flying robotic (quadcopter) and wireless sensor network (WSN) technology, which enables monitoring of the environment at low cost.
+date:   2014-04-25 16:54:46
+author: Marcel Newman
+categories:
+- project
+img: portfolio_10.jpg
+thumb: asset-thumb.png
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+tagged: Flat, UI, Development
+client: Wonder Corp.
+website: http://www.scorelab.org/ASSET/
+---
+####YOUR PROJECT NAME

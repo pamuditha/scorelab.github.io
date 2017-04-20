@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "TikiriDB"
+description: TikiriDB, the database abstraction for wireless sensor networks
+
+date:   2014-04-25 16:54:46
+author: Marcel Newman
+categories:
+- project
+img: portfolio_10.jpg
+thumb: default.png
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+tagged: Flat, UI, Development
+client: Wonder Corp.
+website: http://www.ucsc.cmb.ac.lk/TikiriDB
+---
+####YOUR PROJECT NAME
