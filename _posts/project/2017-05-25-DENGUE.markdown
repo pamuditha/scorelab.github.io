@@ -14,6 +14,6 @@ carousel:
 - single03.jpg
 tagged: Flat, UI, Development
 client: Wonder Corp.
-website: http://www.scorelab.org/ASSET/
+website: http://www.scorelab.org/blog/drone-for-dengue
 ---
 ####YOUR PROJECT NAME

@@ -13,7 +13,7 @@
     {% for project in site.categories['project'] limit:include.limit %}
       <div class="col-md-6 col-sm-6 card-view">
           <div class="col-md-4 col-sm-4">
-            <img src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{project.thumb}}" alt="">
+            <img src="{{ '/assets/img/project/' | prepend: site.baseurl }}{{project.thumb}}" alt="">
           </div>
           <div class="col-md-8 col-sm-8" style="text-align:justify">
             <h4><a href="{{project.website}}">{{project.title}}</a></h4>
