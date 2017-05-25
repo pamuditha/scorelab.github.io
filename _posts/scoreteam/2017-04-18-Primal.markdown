@@ -1,0 +1,13 @@
+---
+layout: scoreteam
+categories: scoreteam 
+post: Alumni
+name: Primal Wijesekara
+education_qualifications: Research Specialist, Computer Science Department, University of California, Berkeley
+mail: primal[at]ece.ubc.ca
+linkedin: 
+scholar: https://scholar.google.com/citations?user=zRQMWrkAAAAJ&hl=en
+github: 
+blog:
+web:
+---

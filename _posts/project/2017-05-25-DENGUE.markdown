@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "D4D"
+description: Drone for(4) Dengue is a system for detecting mosquito breeding sites via drone images. The system provides a low cost drone management system for the different types of users.
+date:   2014-04-25 16:54:46
+author: Akarshani Amarasinghe
+categories:
+- project
+img: portfolio_10.jpg
+thumb: d4d.jpg
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+tagged: Flat, UI, Development
+client: Wonder Corp.
+website: http://www.scorelab.org/ASSET/
+---
+####YOUR PROJECT NAME
