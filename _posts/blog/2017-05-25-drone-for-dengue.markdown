@@ -6,7 +6,7 @@ author: Admin
 categories:
 - blog
 img: d4d.jpg
-thumb: d4d_thumb.jpg
+thumb: d4d_thumb.png
 ---
 
 <b>Drone for Dengue (D4D)</b> is a system for detecting dengue mosquito breeding sites via drone images. Public Health Inspectors (PHIs) in Sri Lanka are facing a problem of identifying certain mosquito breeding sites since they cannot easily reach places such as roof gutters, overhead water tanks,
