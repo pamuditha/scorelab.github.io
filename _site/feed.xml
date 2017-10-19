@@ -5,9 +5,22 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://www.scorelab.org/</link>
     <atom:link href="http://www.scorelab.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Oct 2017 10:00:52 +0530</pubDate>
-    <lastBuildDate>Thu, 19 Oct 2017 10:00:52 +0530</lastBuildDate>
+    <pubDate>Thu, 19 Oct 2017 10:08:26 +0530</pubDate>
+    <lastBuildDate>Thu, 19 Oct 2017 10:08:26 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Publications: Identifying Mosquito Breeding Sites via Drone Images</title>
+        <description>
+</description>
+        <pubDate>Sat, 10 Jun 2017 00:00:00 +0530</pubDate>
+        <link>http://www.scorelab.org/publications/IdentifyingMosquitoBreedingSitesviaDroneImages</link>
+        <guid isPermaLink="true">http://www.scorelab.org/publications/IdentifyingMosquitoBreedingSitesviaDroneImages</guid>
+        
+        
+        <category>publications</category>
+        
+      </item>
     
       <item>
         <title>Publications: Train traffic optimization to minimize stochastic delays</title>
@@ -120,19 +133,6 @@
         <pubDate>Thu, 08 Jun 2017 00:00:00 +0530</pubDate>
         <link>http://www.scorelab.org/publications/ListeningToTheGiants</link>
         <guid isPermaLink="true">http://www.scorelab.org/publications/ListeningToTheGiants</guid>
-        
-        
-        <category>publications</category>
-        
-      </item>
-    
-      <item>
-        <title>Publications: Context-aware sentiment classification</title>
-        <description>
-</description>
-        <pubDate>Thu, 08 Jun 2017 00:00:00 +0530</pubDate>
-        <link>http://www.scorelab.org/publications/Context-awareSentimentClassification</link>
-        <guid isPermaLink="true">http://www.scorelab.org/publications/Context-awareSentimentClassification</guid>
         
         
         <category>publications</category>
