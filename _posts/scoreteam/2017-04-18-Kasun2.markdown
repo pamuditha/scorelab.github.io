@@ -2,7 +2,7 @@
 layout: scoreteam
 categories: scoreteam 
 post: RA
-name: Kasun Gunawardana
+name: Dr. Kasun Gunawardana
 education_qualifications: B.Sc (UCSC), Ph.D(Monash)(Senior Lecturer)
 mail: kgg[at]ucsc.cmb.ac.lk
 linkedin: https://www.linkedin.com/in/kasung/
