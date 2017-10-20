@@ -3,11 +3,11 @@ layout: scoreteam
 categories: scoreteam 
 post: Alumni
 name: Primal Wijesekara
-education_qualifications: Research Specialist, Computer Science Department, University of California, Berkeley (PhD student)
+education_qualifications: Security Researcher, Computer Science Department, University of California, Berkeley (PhD student)
 mail: primal[at]ece.ubc.ca
-linkedin: 
-scholar: https://scholar.google.com/citations?user=zRQMWrkAAAAJ&hl=en
-github: 
+linkedin: https://www.linkedin.com/in/primalwijesekera/
+scholar: https://scholar.google.ca/citations?user=zRQMWrkAAAAJ&hl=en
+github: https://github.com/primalw 
 blog:
 web:
 ---
