@@ -2,7 +2,7 @@
 layout: scoreteam
 categories: scoreteam 
 post: Alumni
-name: Darshana Lakmal Weerawarne
+name: Dr. Darshana Lakmal Weerawarne
 education_qualifications: BSc (Col), MS (SUNY Binghamton), PhD (SUNY Binghamton) (Postdoctoral Fellow at Center for Advanced Microelectronics Manufacturing (CAMM), Binghamton University)
 mail: lakmalweerawarne[at]gmail.com
 linkedin: 
