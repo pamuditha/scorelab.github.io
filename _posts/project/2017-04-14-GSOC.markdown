@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "Google Summer of Code (GSoC)"
+description: Welcome to the SCoRe Lab Google Summer of Code (GSoC) 2017 project ideas page. We are based in the University of Colombo School of Computing, Sri Lanka. 
+
+date:   2014-04-25 16:54:46
+author: Marcel Newman
+categories:
+- project
+img: GSoC.png
+thumb: GSoC.png
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+tagged: Flat, UI, Development
+client: Wonder Corp.
+website: http://www.scorelab.org/gsoc-2017
+---
+####YOUR PROJECT NAME
