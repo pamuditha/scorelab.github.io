@@ -1,0 +1,23 @@
+---
+layout: post
+title: "SCoRe published 3 posters at SENSYS 2017"
+date: 2017-11-16 16:54:46
+author: Admin
+categories:
+- blog
+img: d4d.jpg
+thumb: d4d_thumb.png
+---
+
+Two of our researchers <b>Mr. Prabhash Kumarasinghe </b> and <b>Ms. Dilushi Piyumwardhana</b> presented three posters at SENSYS 2017 conference based on <b>ASSEST and D4D </b>projects at Delft, The Netherlands on November 5-8, 2017.<!--more-->
+
+<!--The Authors as follows;
+<ol>
+    <li>Chathura Suduwella</li>
+    <li>Akarshani Amarasinghe</li>
+    <li>Lasith Niroshan</li>
+    <li>Charith Elwitigala</li>
+    <li>Dr. Kasun De Zoysa</li>
+    <li>Dr. Chamath Keppetiyagama</li>
+</ol>-->
+
