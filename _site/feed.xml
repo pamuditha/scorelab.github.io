@@ -5,9 +5,45 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://www.scorelab.org/</link>
     <atom:link href="http://www.scorelab.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Nov 2017 10:40:00 +0530</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2017 10:40:00 +0530</lastBuildDate>
+    <pubDate>Fri, 17 Nov 2017 12:02:08 +0530</pubDate>
+    <lastBuildDate>Fri, 17 Nov 2017 12:02:08 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Blog: A New Mosquito - Rivira newspaper article</title>
+        <description>&lt;p&gt;&lt;b&gt;Drone for Dengue (D4D)&lt;/b&gt; is a system for detecting dengue mosquito breeding sites via drone images. Public Health Inspectors (PHIs) in Sri Lanka are facing a problem of identifying certain mosquito breeding sites since they cannot easily reach places such as roof gutters, overhead water tanks,
+inaccessible rooftops and cement materials which are capable of retaining water. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.rivira.lk/epaper/sunday/2017/05/28/files/assets/common/page-substrates/page0017.jpg&quot;&gt;Rivira Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;embed src=&quot;../../assets/img/blog/Rivira.pdf&quot; width=&quot;700px&quot; height=&quot;1000px&quot; /&gt;
+
+</description>
+        <pubDate>Wed, 14 Jun 2017 22:24:46 +0530</pubDate>
+        <link>http://www.scorelab.org/blog/a-new-mosquito</link>
+        <guid isPermaLink="true">http://www.scorelab.org/blog/a-new-mosquito</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog: A Drone Mission for Dengue - Lakbima newspaper article</title>
+        <description>&lt;p&gt;&lt;b&gt;Drone for Dengue (D4D)&lt;/b&gt; is a system for detecting dengue mosquito breeding sites via drone images. Public Health Inspectors (PHIs) in Sri Lanka are facing a problem of identifying certain mosquito breeding sites since they cannot easily reach places such as roof gutters, overhead water tanks,
+inaccessible rooftops and cement materials which are capable of retaining water. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/img/blog/Lakbima.jpg&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Jun 2017 22:24:46 +0530</pubDate>
+        <link>http://www.scorelab.org/blog/drone-mission-for-dengue</link>
+        <guid isPermaLink="true">http://www.scorelab.org/blog/drone-mission-for-dengue</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Publications: Identifying Mosquito Breeding Sites via Drone Images</title>
@@ -107,32 +143,6 @@
         <pubDate>Thu, 08 Jun 2017 00:00:00 +0530</pubDate>
         <link>http://www.scorelab.org/publications/Sensor-basedBreakageDetectionForElectricFences</link>
         <guid isPermaLink="true">http://www.scorelab.org/publications/Sensor-basedBreakageDetectionForElectricFences</guid>
-        
-        
-        <category>publications</category>
-        
-      </item>
-    
-      <item>
-        <title>Publications: Secure Dynamic Access Control Mechanism for Shared Wireless Sensor Networks</title>
-        <description>
-</description>
-        <pubDate>Thu, 08 Jun 2017 00:00:00 +0530</pubDate>
-        <link>http://www.scorelab.org/publications/SecureDynamicAccessControlMechanismForSharedWirelessSensorNetworks</link>
-        <guid isPermaLink="true">http://www.scorelab.org/publications/SecureDynamicAccessControlMechanismForSharedWirelessSensorNetworks</guid>
-        
-        
-        <category>publications</category>
-        
-      </item>
-    
-      <item>
-        <title>Publications: Listening to the Giants: Using Elephant Infra-Sound to Solve the Human-Elephant Conflict</title>
-        <description>
-</description>
-        <pubDate>Thu, 08 Jun 2017 00:00:00 +0530</pubDate>
-        <link>http://www.scorelab.org/publications/ListeningToTheGiants</link>
-        <guid isPermaLink="true">http://www.scorelab.org/publications/ListeningToTheGiants</guid>
         
         
         <category>publications</category>
