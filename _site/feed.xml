@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://www.scorelab.org/</link>
     <atom:link href="http://www.scorelab.org/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Dec 2017 15:16:37 +0530</pubDate>
-    <lastBuildDate>Mon, 04 Dec 2017 15:16:37 +0530</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 11:04:57 +0530</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 11:04:57 +0530</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -34,6 +34,30 @@
       </item>
     
       <item>
+        <title>Blog: SCoRe addressed ICTer 2017</title>
+        <description>&lt;p&gt;One of our researchers &lt;b&gt;Ms. Akarshani Amarasinghe &lt;/b&gt;addressed ICTer 2017 conference entitled &lt;b&gt;Suppressing Dengue via a Drone System &lt;/b&gt; at University of Colombo School of Computing, Sri Lanka.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The Authors as follows;&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Akarshani Amarasinghe&lt;/li&gt;
+    &lt;li&gt;Chathura Suduwella&lt;/li&gt;
+    &lt;li&gt;Lasith Niroshan&lt;/li&gt;
+    &lt;li&gt;Charith Elwitigala&lt;/li&gt;
+    &lt;li&gt;Dr. Kasun De Zoysa&lt;/li&gt;
+    &lt;li&gt;Dr. Chamath Keppetiyagama&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Sat, 07 Oct 2017 22:24:46 +0530</pubDate>
+        <link>http://www.scorelab.org/blog/icter-paper-presentation-2017</link>
+        <guid isPermaLink="true">http://www.scorelab.org/blog/icter-paper-presentation-2017</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
         <title>Blog: SCoRe addressed DRONET 2017</title>
         <description>&lt;p&gt;One of our heads &lt;b&gt;Dr. Kasun De Zoysa &lt;/b&gt;addressed DRONET 2017 conference entitled &lt;b&gt;Identifying Mosquito Breeding Sites via Drone Images &lt;/b&gt; at Niagara Falls, New York, USA on June 23, 2017.&lt;!--more--&gt;&lt;/p&gt;
 
@@ -49,8 +73,8 @@
 
 </description>
         <pubDate>Sat, 07 Oct 2017 22:24:46 +0530</pubDate>
-        <link>http://www.scorelab.org/blog/dronet-paper-presentation-2016</link>
-        <guid isPermaLink="true">http://www.scorelab.org/blog/dronet-paper-presentation-2016</guid>
+        <link>http://www.scorelab.org/blog/dronet-paper-presentation-2017</link>
+        <guid isPermaLink="true">http://www.scorelab.org/blog/dronet-paper-presentation-2017</guid>
         
         
         <category>blog</category>
@@ -166,19 +190,6 @@ inaccessible rooftops and cement materials which are capable of retaining water.
         <pubDate>Fri, 09 Jun 2017 00:00:00 +0530</pubDate>
         <link>http://www.scorelab.org/publications/AQualityMetricForObjectDetectionAndFocusForLow-costUAVs</link>
         <guid isPermaLink="true">http://www.scorelab.org/publications/AQualityMetricForObjectDetectionAndFocusForLow-costUAVs</guid>
-        
-        
-        <category>publications</category>
-        
-      </item>
-    
-      <item>
-        <title>Publications: Wireless Sensing: What Simplicity Has to Offer?</title>
-        <description>
-</description>
-        <pubDate>Thu, 08 Jun 2017 00:00:00 +0530</pubDate>
-        <link>http://www.scorelab.org/publications/WirelessSensing-WhatSimplicityHasToOffer</link>
-        <guid isPermaLink="true">http://www.scorelab.org/publications/WirelessSensing-WhatSimplicityHasToOffer</guid>
         
         
         <category>publications</category>
