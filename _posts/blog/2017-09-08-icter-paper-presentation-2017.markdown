@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SCoRe addressed ICTer 2017"
-date: 2017-10-07 16:54:46
+date: 2017-11-10 16:54:46
 author: Admin
 categories:
 - blog
