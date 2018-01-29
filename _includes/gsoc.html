@@ -24,11 +24,12 @@
 					<b>Mailing list: </b><a href="{{gsoc.mailinglisturl}}" target="_blank">{{gsoc.mailinglist}}</a>
 				</p>
 				<p>
-					<b>IRC Channel:</b> <a href="{{gsoc.ircchannel}}" target="_blank">{{gsoc.ircchannel}}</a>
+					<b>Gitter Channel:</b> <a href="{{gsoc.ircchannel}}" target="_blank">{{gsoc.ircchannel}}</a>
 				</p>
 				<p>
 					<b><a href="{{gsoc.templateurl}}" target="_blank">{{gsoc.proposaltemplate}}</a></b>
 				</p>
+			</section>
 			</section>
 			<section>
 				<header>
@@ -74,8 +75,6 @@
 
 			{% endfor %}
 
-			<br/>
-
 			{% for gsoc2018 in site.categories['gsoc2018'] limit:include.limit %}
 			<section>
 
@@ -84,6 +83,8 @@
 				<div id="{{gsoc2018.divid}}">
 					<h2>{{gsoc2018.title}}</h2>
 					<p>{{gsoc2018.description}}</p>
+					<b>Expected Results: </b>{{gsoc2018.expectedresults}}
+					<br/>
 					<b>Required Knowledge: </b>{{gsoc2018.requiredknowledge}}
                     <br/>
                     <b>Github: </b><a href="{{gsoc2018.githuburl}}" target="_blank">{{gsoc2018.githuburl}}</a>
