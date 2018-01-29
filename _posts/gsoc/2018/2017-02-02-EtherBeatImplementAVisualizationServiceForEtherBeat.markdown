@@ -7,5 +7,5 @@ description: EtherBeat is an Ethereum blockchain monitoring service which utiliz
 expectedresults: <ul style="list-style:inherit"><li>Implement a graph-based visualization service</li><li>Test visualization service with test cases</li><li>Write documentation</li></ul>
 githuburl: https://github.com/scorelab/EtherBeat
 requiredknowledge: Apache TinkerPop, GraphQL Js and ReactJs
-possiblementors: Tharidu Fernando, Ruwan Geeganage
+possiblementors: Tharidu Fernando, Ruwan Geeganage and Keshan Sodimana 
 ---

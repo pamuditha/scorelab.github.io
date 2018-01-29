@@ -7,5 +7,5 @@ description: Implement an analyzing framework which can provide users important 
 expectedresults: <ul style="list-style:inherit"><li>Design and implement an EtherBeat analyzing framework</li><li>Test EtherBeat analyzing framework with test cases</li><li>Write documentation</li></ul>
 githuburl: https://github.com/scorelab/EtherBeat
 requiredknowledge: GraphQL Js and ReactJs
-possiblementors: Ruwan Geeganage, Tharidu Fernando
+possiblementors: Ruwan Geeganage, Tharidu Fernando and Keshan Sodimana
 ---
