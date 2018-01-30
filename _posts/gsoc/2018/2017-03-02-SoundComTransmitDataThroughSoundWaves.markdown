@@ -8,7 +8,7 @@ In the first phase, We can use sound waves within audible range. In order to do 
 <ul style="list-style:inherit"><li>Encrypt message into sound waves</li><li>Transmit() the encrypted sound wave</li></ul>
 In the second phase, we can move our sound range into non-audible.
 expectedresults: <ul style="list-style:inherit"><li>Design the architecture for mobile app</li><li>Wireframes for the mobile app</li><li>UI implementation for the app with common images and colors</li><li>Test Application with test cases</li><li>Write documentation</li></ul>
-githuburl: https://github.com/scorelab/dengue-stop
+githuburl: https://github.com/scorelab/soundcom
 requiredknowledge: React Native, Android
 possiblementors: Lasith, Rox
 ---
