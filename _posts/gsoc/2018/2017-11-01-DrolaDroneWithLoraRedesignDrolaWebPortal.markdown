@@ -7,5 +7,5 @@ description: Drola Web Portal is for drola registrations and monitoring. Accordi
 expectedresults: <ul style="list-style:inherit"><li>Design wireframes for admin panel and public web portal</li><li>UI implementation for web portal</li><li>Implement front end functionalities  with using backend APIs</li><li>Test web portal with test cases</li><li>Write documentation.</li></ul>
 githuburl: https://github.com/scorelab/drola/issues/18
 requiredknowledge: React, CSS, JSON, Map APIs
-possiblementors: Laksith Ekanayake, Kasun
+possiblementors: Nithila Vithanage
 ---

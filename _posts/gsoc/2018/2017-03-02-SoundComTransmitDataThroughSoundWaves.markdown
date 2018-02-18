@@ -7,5 +7,5 @@ description: SoundCom is an mobile application which can transmit data through s
 expectedresults: <ul style="list-style:inherit"><li>Design the architecture for mobile app</li><li>Wireframes for the mobile app</li><li>UI implementation for the app with common images and colors</li><li>Test Application with test cases</li><li>Write documentation</li></ul>
 githuburl: https://github.com/scorelab/soundcom
 requiredknowledge: React Native, Android
-possiblementors: Lasith, Rox
+possiblementors: Lasith
 ---

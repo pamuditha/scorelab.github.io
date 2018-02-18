@@ -7,5 +7,5 @@ description: Currently there are many kind of social problems and situations whi
 expectedresults: <ul style="list-style:inherit"><li>Design the architecture for mobile app</li><li>Wireframes for the mobile app </li><li>UI implementation for the app with common images and colors</li><li>Implement Separate configuration file</li><li>Test Application with test cases</li><li>Write documentation</li></ul>
 githuburl: https://github.com/scorelab/dengue-stop
 requiredknowledge: ReactJs and React Native
-possiblementors: Pasan, Chamath
+possiblementors: TBA
 ---

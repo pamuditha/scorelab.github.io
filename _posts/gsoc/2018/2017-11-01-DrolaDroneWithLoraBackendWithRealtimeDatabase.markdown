@@ -7,5 +7,5 @@ description: Drones use their radio link to communicate with their ground statio
 expectedresults: <ul style="list-style:inherit"><li>Integrate real-time Database for Drola backend</li><li>Design and implement backend APIs for realtime database</li><li>Test the database integration with test cases</li><li>Write documentation</li></ul>
 githuburl: https://github.com/scorelab/drola/issues/17
 requiredknowledge: C++, Node Js, Python and ReactJs
-possiblementors: Laksith, Nithila Vithanage
+possiblementors: Nithila Vithanage
 ---
