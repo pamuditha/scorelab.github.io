@@ -7,5 +7,5 @@ description: Basa is an automated download queue for enterprise to take the best
 expectedresults: <ul style="list-style:inherit"><li>Implement a mechanism to create unique download links to a file</li><li>Implement a feature to download the files from Bassa server to local machine</li><li>Maintain good code quality throughout.</li><li>Write Frontend unit tests and component tests</li><li>Integrate the build and test cases to TravisCI</li></ul>
 githuburl: https://github.com/scorelab/Bassa/
 requiredknowledge: Python, Angular, Karma
-possiblementors:  Milindu Sanoj Kumarage
+possiblementors: Rajika, Bathiya
 ---
