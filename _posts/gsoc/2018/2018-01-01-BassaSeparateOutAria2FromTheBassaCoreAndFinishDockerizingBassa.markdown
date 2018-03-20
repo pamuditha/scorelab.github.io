@@ -7,5 +7,5 @@ description: Bassa is automated download queue for enterprise to take the best u
 expectedresults: <ul style="list-style:inherit"><li>Aria2 should be taken out from Bassa.</li><li>Aria2 should be running in a Docker container.</li><li>Optimize all the Dockers for Production use.</li><li>Wire all the Docker containers with Docker Compose.</li></ul>
 githuburl: https://github.com/scorelab/Bassa/issues/407
 requiredknowledge: Python, Angular, Docker
-possiblementors: Milindu Sanoj Kumarage, Tharindu Ranathunga
+possiblementors: Rajika, Bathiya, Tharindu Ranathunga
 ---
