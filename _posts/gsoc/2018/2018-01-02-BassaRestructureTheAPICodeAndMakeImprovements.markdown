@@ -7,5 +7,5 @@ description: Study the code and identify the issues, bad coding decisions, secur
 expectedresults: <ul style="list-style:inherit"><li>Restructure the Bassa API</li><li>Write unit tests and component tests for new api</li><li>Integrate the build and test cases to TravisCI</li></ul>
 githuburl: https://github.com/scorelab/Bassa/issues/411
 requiredknowledge: Python
-possiblementors: Milindu Sanoj Kumarage, Tharindu Ranathunga
+possiblementors: Rajika, Bathiya, Tharindu Ranathunga
 ---
